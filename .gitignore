@@ -1,0 +1,11 @@
+*.o
+*.a
+*.so
+config.log
+*.d
+*.so.54
+*.so.52
+*.so.2
+*.so.1
+*.so.0
+*.ver

@@ -1,0 +1,14 @@
+prefix=//home/chrisf/projects/annotate/cross//build
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 1.1.0
+Requires: 
+Requires.private: libavutil = 52.18.100
+Conflicts:
+Libs: -L${libdir} -lavresample 
+Libs.private: -lm -lz
+Cflags: -I${includedir}
