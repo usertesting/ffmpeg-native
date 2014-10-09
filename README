@@ -1,3 +1,7 @@
+NOTE: 
+This repo is a copied version of the ffmpeg library. 
+It contains additional configuration scripts and minor changes on Jun 03, 2014 aand added config files used for configuring ffmpeg builds on Sep 12, 2014.
+
 FFmpeg README
 -------------
 
